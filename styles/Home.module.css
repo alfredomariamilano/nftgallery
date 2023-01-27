@@ -78,8 +78,3 @@
     transform: rotate(360deg);
   }
 }
-
-/* Enable hover only on non-touch devices */
-@media (hover: hover) and (pointer: fine) {
-  
-}

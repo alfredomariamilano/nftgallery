@@ -65,9 +65,14 @@
   position: absolute;
   left: 0;
   bottom: 0;
-  transform: translateY(calc(100% - var(--gridCellContent-padding) - var(--gridCellContent__h1-font-size)));
-  /* transform: translateY(100%); */
-  transition: transform 0.25s ease;
+}
+
+/* Enable hover only on non-touch devices */
+@media (hover: hover) and (pointer: fine) {
+  .gridCellContent {
+    transform: translateY(calc(100% - var(--gridCellContent-padding) - var(--gridCellContent__h1-font-size)));
+    transition: transform 0.25s ease;
+  }
 }
 
 .gridCellContent h1 {
