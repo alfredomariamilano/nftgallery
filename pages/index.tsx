@@ -5,7 +5,7 @@ import { ethers } from 'ethers'
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import { ETHERSCAN_API_KEY } from '~/utils/constants'
 import { LoadingSpinner } from '~/components/LoadingSpinner'
-import { NFTType } from '~/utils/types'
+import { NFTType } from '~/utils/types.d'
 import { NFTGridCell } from '~/components/NFT'
 
 export default function Home() {
@@ -248,7 +248,7 @@ export default function Home() {
           wallet: walletConnected,
           nfts: _NFTs,
         }),
-      }).then(console.log)
+      })
     }
 
     if (walletConnected) {

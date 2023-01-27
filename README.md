@@ -1,3 +1,8 @@
+# Notes:
+The code is not perfect, since I wanted to keep the time spent on it to a minimum, even though I added an actual gallery though the OpenSea API to the project, which makes it far better to visually see your NFTs. The only downside is that if it is not listed on OpenSea I'm not sure if it would work.
+
+The project is also deployed to [https://nftgallery-pi.vercel.app/](https://nftgallery-pi.vercel.app/) to test in a live environment.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

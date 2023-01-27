@@ -1,5 +1,5 @@
 import styles from '~/styles/Grid.module.css'
-import { NFTType } from '~/utils/types'
+import { NFTType } from '~/utils/types.d'
 
 type NFTGridCellProps = {
   NFT: NFTType
